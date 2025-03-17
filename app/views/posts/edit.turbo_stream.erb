@@ -1,0 +1,11 @@
+<!-- <turbo-stream action="replace" target="<%#= dom_id(@post) %>"> -->
+  <!-- <template> -->
+    <!-- <%#= render "form", post: @post %> -->
+  <!-- </template> -->
+<!-- </turbo-stream> -->
+
+<%= turbo_stream.replace dom_id(@post, "id")  do %>
+  <div id="id_post_<%= @post.id %>">
+    <%= render 'form', post: @post %>
+  </div>
+<% end %>
