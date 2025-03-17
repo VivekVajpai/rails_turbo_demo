@@ -25,7 +25,7 @@ class PostsController < ApplicationController
     respond_to do |format|
       # format.turbo_stream { render turbo_stream: turbo_stream.replace(dom_id(@post), partial: "posts/form", locals: { post: @post }) }
       format.turbo_stream
-      format.html { render partial: "posts/form", locals: { post: @post } }
+      # format.html { render partial: "posts/form", locals: { post: @post } }
     end
   end
 
