@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # README
 
 This README would normally document whatever steps are necessary to get the
@@ -22,3 +23,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+=======
+# rails_turbo_demo
+Rails Turbo demo app having Stimulus, Turbo Frames, Turbo Stream
+>>>>>>> f2fd7ccba8d96e92e79fd9f781784490f441395c
